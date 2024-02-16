@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.ibb.co/NnknYhR/image-2.png);
+    background-size: cover;
+}
+
+.start{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.answers{
+    display: flex;
+    justify-content: center;
+    //justify-content: space-evenly;
+}
+
+.question{
+    text-align: center;
+    font-size: 100px;
+    color: #00299b;
+}
+
+.button2{
+    display: flex;
+    font-size: 35px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    width: 219px;
+    height: 75px;
+    padding: 20px 10px 5px 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 250px;
+    background-color: #FF6700;
+    color: #006957;
+}
+
+.answer{
+    border-radius: 3px;
+    font-size: 30px;
+    padding: 5px 10px 5px 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #006957;
+    background-color: #FF6700;
+}
+.button2:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.answer:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.j{
+    text-align: center;
+}
+
+.h{
+    text-align: center;
+    font-size: 25px;
+}
